@@ -65,10 +65,12 @@ nav {
   line-height: 24px;
 }
 
-.connect_button {
+.btn-link .connect_button {
   text-transform: uppercase;
   color: #7f8cff;
   font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
   padding: 10px 10px 0 10px;
 }
 
@@ -185,7 +187,8 @@ nav {
 }
 
 .about {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 15px;
   padding: 0 15px;
 }
