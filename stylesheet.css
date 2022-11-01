@@ -181,9 +181,25 @@ nav {
   border: 1px solid #396df2;
 }
 
+.default_button:enabled {
+  color: #396df2;
+  background: #fff;
+}
+
 .default_button:hover {
   color: #fff;
   background: #396df2;
+}
+
+.default_button:active {
+  color: #fff;
+  background: #2230D2;
+}
+
+.default_button:disabled {
+  border: 1px solid #C1C7D0;
+  color: #5E6C84;
+  background: #fff;
 }
 
 .about {
@@ -254,6 +270,7 @@ nav {
 }
 
 .contact-sect {
+  margin-top: 114px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,3 +335,6 @@ nav {
   border: 1px solid #cfd8dc;
 }
 
+.contact-form div {
+  margin: 0.625rem 0 2rem 0;
+}
