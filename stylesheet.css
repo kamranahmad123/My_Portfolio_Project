@@ -181,9 +181,25 @@ nav {
   border: 1px solid #396df2;
 }
 
+.default_button:enabled {
+  color: #396df2;
+  background: #fff;
+}
+
 .default_button:hover {
   color: #fff;
   background: #396df2;
+}
+
+.default_button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.default_button:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
+  background: #fff;
 }
 
 .about {
@@ -251,4 +267,81 @@ nav {
 .ul_item img {
   width: 40px;
   margin-right: 20px;
+}
+
+.contact-sect {
+  margin-top: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.4375rem 1.5rem 0 1.5rem;
+  border-top-left-radius: 90px;
+  background: #3b4eff;
+  background-image: url(../Images/contact-form-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 62% 96%;
+}
+
+.contact-sect .header-primary-text {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-sect .para-primary-text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 2.6875rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.contact-form label {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form label input::placeholder {
+  font-size: 1.0625rem;
+  color: #172b4d;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.contact-form label textarea::placeholder {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #b3bac5;
+}
+
+.contact-form label textarea {
+  height: 10.625rem;
+}
+
+.contact-form label input,
+.contact-form label textarea {
+  width: 100%;
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  background: #fff;
+  color: #172b4d;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+.contact-form div {
+  margin: 0.625rem 0 2rem 0;
+}
+
+.bottom-line {
+  width: 134px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  border-bottom: 5px solid #0d151e;
 }
