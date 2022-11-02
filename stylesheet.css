@@ -193,12 +193,12 @@ nav {
 
 .default_button:active {
   color: #fff;
-  background: #2230D2;
+  background: #2230d2;
 }
 
 .default_button:disabled {
-  border: 1px solid #C1C7D0;
-  color: #5E6C84;
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
   background: #fff;
 }
 
