@@ -338,3 +338,10 @@ nav {
 .contact-form div {
   margin: 0.625rem 0 2rem 0;
 }
+
+.bottom-line {
+  width: 134px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  border-bottom: 5px solid #0d151e;
+}
