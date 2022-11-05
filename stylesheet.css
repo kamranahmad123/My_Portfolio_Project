@@ -225,6 +225,7 @@ main {
   background-color: #fff;
   box-sizing: border-box;
   cursor: pointer;
+  transition: all linear 350ms 2ms;
 }
 
 .button:enabled {
@@ -575,6 +576,11 @@ main {
   .desktop-image {
     display: inline-block;
     width: 100%;
+    transition: all linear 350ms 2ms;
+  }
+
+  .desktop-image:hover {
+    transform: scale(1.1);
   }
 
   .project_work .project-body-block {
@@ -706,5 +712,18 @@ main {
 
   .contact_form div {
     align-self: center;
+  }
+
+  #username,
+  #email,
+  #message {
+    transition: all linear 350ms 2ms;
+  }
+
+  #username:hover,
+  #email:hover,
+  #message:hover {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
