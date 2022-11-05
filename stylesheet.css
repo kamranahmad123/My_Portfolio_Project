@@ -712,4 +712,17 @@ main {
   .contact_form div {
     align-self: center;
   }
+
+  #username,
+  #email,
+  #message {
+    transition: all linear 350ms 2ms;
+  }
+
+  #username:hover,
+  #email:hover,
+  #message:hover {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
