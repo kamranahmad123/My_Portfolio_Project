@@ -576,12 +576,13 @@ main {
   .desktop-image {
     display: inline-block;
     width: 100%;
-    transition: all linear 350ms 2ms;  
+    transition: all linear 350ms 2ms;
   }
 
   .desktop-image:hover {
     transform: scale(1.1);
   }
+
   .project_work .project-body-block {
     width: 50%;
     padding: 0 1.5rem 3rem 1.5rem;
