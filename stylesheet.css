@@ -225,6 +225,7 @@ main {
   background-color: #fff;
   box-sizing: border-box;
   cursor: pointer;
+  transition: all linear 350ms 2ms;
 }
 
 .button:enabled {
