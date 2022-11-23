@@ -28,7 +28,7 @@ Clone this repository by using the command line :
 
 👤 **Author1**
 
-- GitHub: [Kamran123Ahmad](https://github.com/kamranahmad123)
+- GitHub: [kamranahmad123](https://github.com/kamranahmad123)
 
 ## 🤝 Contributing
 
