@@ -764,7 +764,10 @@ li, a {
     font-weight: 600;
     font-size: 32px;
     padding-left: 26px;
-   } 
+   }
+   .nav_link:hover{
+  color:white
+  } 
    .hamburger.active .nav_bar:nth-child(2){
        opacity:0;
    }
