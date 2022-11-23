@@ -19,8 +19,11 @@ li {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 15px;
+  }
+ 
 /* header section */
 header {
   display: flex;
@@ -33,30 +36,23 @@ header {
   bottom: 0;
   width: 100%;
   height: 3rem;
-  background: #fff;
+  background: #fff;d
+  
 }
+nav {
+  width: 100%;
+}
+
+
+
 
 header .logo_container {
   margin-left: 1.5rem;
 }
 
-header nav {
-  cursor: pointer;
-  margin-right: 2.25rem;
-}
-
-header .my_logo,
-header .nav_menu {
-  display: block;
-  width: 100%;
-}
-
-a {
-  font-size: 2rem;
-  line-height: 4rem;
-  font-weight: 600;
-  color: #fff;
-  text-decoration: none;
+header .my_logo
+{
+   margin-top: -10px;
 }
 
 main {
@@ -428,7 +424,7 @@ main {
 }
 
 @media screen and (max-width: 991px) {
-  header nav .nav-links,
+  header .nav-links,
   .desktop-image,
   .hide-for-mobile {
     display: none;
@@ -478,27 +474,8 @@ main {
   header .logo_container {
     margin-left: 8.9375rem;
   }
-
-  header nav {
-    margin-right: 8.875rem;
-  }
-
-  header nav .nav-links {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0.625rem 0.75rem;
-    gap: 1.25rem;
-  }
-
-  header .nav-link {
-    font-weight: 500;
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
-    color: #344563;
-  }
-
-  .my_logo {
+ 
+   .my_logo {
     animation: rotate 2.5s ease-in-out 1s;
   }
 
@@ -511,18 +488,7 @@ main {
       transform: perspective(100px) rotateX(360deg);
     }
   }
-
-  .nav-link a {
-    transition: color 1s ease-in-out;
-  }
-
-  .nav-link:hover a {
-    background: #ebeafc;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  header .nav_menu,
+  header
   .mobile-image,
   .hide-for-desktop,
   .bottom-line {
@@ -727,3 +693,99 @@ main {
     padding-bottom: 30px;
   }
 }
+
+
+li, a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.navbar {
+   min-height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 24px;
+
+}
+
+.my_logo {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070FF;
+  display: flex;
+  align-items: center;
+  text-align: center;  
+}
+
+.nav_menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 60px;
+   margin-top: -70px;
+}
+
+.nav_link {
+   transition: 0.7s ease;
+   color: #344563;
+   font-size: 20px;
+}
+
+.hamburger {
+   display: none;
+   cursor: pointer;
+     
+}
+
+@media(max-width:768px) {
+   .hamburger{
+       display: block;
+   }
+   .nav_link {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    padding-left: 26px;
+   } 
+   .hamburger.active .nav_bar:nth-child(2){
+       opacity:0;
+   }
+   .hamburger.active .nav_bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+       background-color: white;
+   }
+   .hamburger.active .nav_bar:nth-child(3){
+       transform: translateY(-8px) rotate(135deg);
+       background-color: white;
+   }
+
+   .nav_menu{
+       position:fixed;
+       display: flex;
+       left: -100%;
+       top: 60px;
+       gap:40px; 
+       flex-direction: column;
+       background-color: #6070FF;
+       width: 100%;
+       justify-content:start;
+       align-items:flex-start;
+       transition: 0.3s;
+       height: 100%;
+       opacity: 95%;  
+       padding-top: 60px;
+       
+   }      
+   .nav_menu.active{
+       left: 0;
+   }
+}
+
