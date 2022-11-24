@@ -5,27 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet.css"/>
-  <title>Desktop_Portfolio</title>
+  <title>Hamburger_menu</title>
 </head>
 <body>
-  <body>
-    <header id="header">
-      <div class="logo_container">
-        <a href="/">
-          <img class="my_logo" src="images/MyLogo.png">
-        </a>
-      </div>
-      <nav>
-        <div class="menu-container">
-          <img src="images/menu.png" class="nav_menu">
-        </div>
-        <ul class="nav-links">
-          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
-          <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <section class="menu_background">
+  <header>
+    <nav class="navbar">  
+    <h1 class="my_logo">My Logo</h1>
+    <ul class="nav_menu">
+        <li class="nav-link"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+        <li class="nav-link"><a href="#about" class="nav_link">About</a></li>
+        <li class="nav-link"><a href="#contact" class="nav_link">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+        <span class="nav_bar"></span>
+        <span class="nav_bar"></span>
+        <span class="nav_bar"></span>   
+    </div>
+</nav>
+</header>
+<script src="main.js"></script>
   
     <main>
       <section class="headline">
@@ -63,6 +62,7 @@
           </li>
         </ul>
       </section>
+    </section>
   
       <section id="portfolio" class="work-section">
         <ul class="project_work">
