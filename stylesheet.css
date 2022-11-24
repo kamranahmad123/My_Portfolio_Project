@@ -14,14 +14,24 @@ body {
   background: #f7f7f9;
 }
 
-ul,
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 15px;
+  margin-top: 70px;
+}
+
 li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  list-style: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 15px;
+}
+
+.tags,
+.tag {
+  list-style: none;
 }
 
 /* header section */
@@ -686,14 +696,6 @@ main {
   }
 }
 
-li,
-a {
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  margin-top: 70px;
-}
-
 .navbar {
   min-height: 70px;
   display: flex;
@@ -759,6 +761,11 @@ header .my_logo {
     font-weight: 600;
     font-size: 32px;
     padding-left: 26px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    margin-top: 20px;
   }
 
   .nav_link:hover {
