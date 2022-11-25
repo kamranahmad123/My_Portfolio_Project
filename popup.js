@@ -414,4 +414,43 @@ open3.addEventListener('click', () => {
   });
 });
 
+const open4 = document.querySelector(".open4");
+open4.addEventListener("click", () => {
+  const pop1 = document.createElement("pop1");
+  pop1.className = "pop1";
+  const main = document.createElement("div");
+  main.className = "main";
+  pop1.innerHTML = `
+<div class="top-popup">
+<h2 class="project-title-popup">Uber Navigation</h2>
+<div class="project-info-popup">
+<button class="close4 style" type="button">X</button>
+  <span class="project-info-items-popup canopy-popup">Uber</span>
+  <img src="./images/Counter.png" >
+  <span class="project-info-items-popup1">Back End Dev</span>
+  <img src="./images/Counter.png" >
+  <span class="project-info-items-popup2">2015</span>
+</div>
+</div>
+<img src="./images/SnapshootDesktopPortfolioB.png"  class="mobile-image-popup">
+ <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
+ <div class="footer-popup">
+  <ul class="tags-popup">
+    <li class="tag-popup">html</li>
+    <li class="tag-popup >Ruby on rails</li>
+    <li class="tag-popup">CSS</li>
+    <li class="tag-popup">javaScript</li>
+    </ul>
+    <button class="button project-popup" type="button">See live</button>
+    <button class="button project-popup" type="button">See source</button>
+   </ul>
+</div>
+`;
+  body.appendChild(main);
+  main.appendChild(pop1);
+  const close = document.querySelector(".close4");
+  close.addEventListener("click", () => {
+    body.removeChild(main);
+  });
+});
 
