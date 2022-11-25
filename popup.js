@@ -414,12 +414,12 @@ open3.addEventListener('click', () => {
   });
 });
 
-const open4 = document.querySelector(".open4");
-open4.addEventListener("click", () => {
-  const pop1 = document.createElement("pop1");
-  pop1.className = "pop1";
-  const main = document.createElement("div");
-  main.className = "main";
+const open4 = document.querySelector('.open4');
+open4.addEventListener('click', () => {
+  const pop1 = document.createElement('pop1');
+  pop1.className = 'pop1';
+  const main = document.createElement('div');
+  main.className = 'main';
   pop1.innerHTML = `
 <div class="top-popup">
 <h2 class="project-title-popup">Uber Navigation</h2>
@@ -448,9 +448,8 @@ open4.addEventListener("click", () => {
 `;
   body.appendChild(main);
   main.appendChild(pop1);
-  const close = document.querySelector(".close4");
-  close.addEventListener("click", () => {
+  const close = document.querySelector('.close4');
+  close.addEventListener('click', () => {
     body.removeChild(main);
   });
 });
-
