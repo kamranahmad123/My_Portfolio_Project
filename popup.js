@@ -271,7 +271,6 @@ mycode.innerHTML = `
           <label for="username">
             <input type="text" name="username" id="username" maxlength="30" placeholder="username" required>
           </label>
-  
           <label for="email">
             <input type="email" name="email" id="email" placeholder="example@mail.com" required>
           </label>
@@ -280,7 +279,7 @@ mycode.innerHTML = `
             <textarea name="message" id="message" rows="5" maxlength="500" placeholder="Write your message here!"
               required></textarea>
           </label>
-          <span class="error-message"></span>
+          <div id="error"></div>
           <div class="button-container">
             <button class="button" type="submit">Get In Touch</button>
           </div>

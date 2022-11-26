@@ -383,13 +383,16 @@ main {
 .contact_form label {
   display: flex;
   width: 100%;
-}
-
-.contact_form label input::placeholder {
   font-size: 1.0625rem;
   color: #172b4d;
   line-height: 1.25rem;
   font-weight: 400;
+}
+
+input::placeholder {
+  line-height: 1.25rem;
+  font-weight: 400;
+  font-size: 1.0625rem;
 }
 
 .contact_form label textarea::placeholder {
@@ -938,4 +941,15 @@ header .my_logo {
 .project-info-popup {
   display: block;
   margin-top: 10px;
+}
+
+/* Form Validation */
+
+#error {
+  color: rgb(255, 242, 0);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5rem;
+  font-size: 15px;
 }
