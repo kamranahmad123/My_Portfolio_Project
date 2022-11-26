@@ -84,14 +84,6 @@ Clone this repository to your desired folder:
 - Twitter: [Kamran Ahmad](https://twitter.com/Kamrankhanahm15)
 - LinkedIn: [Kamran Khan](https://www.linkedin.com/in/kamran-khan-9a293b113/)
 
-👤 **Mohammad Suliman Joya**
-
-- GitHub: [Yidnekachew-cmd](https://github.com/Yidnekachew-cmd)
-- Twitter: [@Yidnekassahun](https://twitter.com/Yidnekassahun)
-- LinkedIn: [yidne kassahun](https://www.linkedin.com/in/yidnekachew-kassahun-2b817a24b/)
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
