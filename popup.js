@@ -276,7 +276,7 @@ mycode.innerHTML = `
           </label>
   
           <label for="message">
-            <textarea name="message" id="message" rows="5" maxlength="500" placeholder="Write your message here!"
+            <textarea name="message" type="text" id="message" rows="5" maxlength="500" placeholder="Write your message here!"
               required></textarea>
           </label>
           <div id="error"></div>
