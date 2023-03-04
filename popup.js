@@ -32,8 +32,8 @@ mycode.innerHTML = `
         <h2 class="connect">LET'S CONNECT</h2>
         <ul class="social-media-icons">
           <li class="social-media-icon">
-            <a href="https://twitter.com/Kamrankhanahm15" target="_blank">
-              <img class="social-media-links" src="./Images/twitter.png" alt="Kamran's Twitter">
+            <a href="https://Twitter.com/Kamrankhanahm15" target="_blank">
+              <img class="social-media-links" src="./Images/Twitter.png" alt="Kamran's Twitter">
             </a>
           </li>
           <li class="social-media-icon">
@@ -47,8 +47,8 @@ mycode.innerHTML = `
             </a>
           </li>
           <li class="social-media-icon">
-            <a href="https://github.com/Kamran123Ahmad" target="_blank">
-              <img class="social-media-links" src="./Images/github.png" alt="Kamran's github">
+            <a href="https://Github.com/Kamran123Ahmad" target="_blank">
+              <img class="social-media-links" src="./Images/Github.png" alt="Kamran's Github">
             </a>
           </li>
           <li class="social-media-icon">
@@ -199,8 +199,8 @@ mycode.innerHTML = `
           <h2 class="connect">LET'S CONNECT</h2>
           <ul class="about-myself-sm-icons social-media-icons">
             <li class="social-media-icon">
-              <a href="https://github.com/Kamran123Ahmad" target="_blank">
-                <img class="social-media-links" src="./Images/github.png" alt="Kamran's Github">
+              <a href="https://Github.com/Kamran123Ahmad" target="_blank">
+                <img class="social-media-links" src="./Images/Github.png" alt="Kamran's Github">
               </a>
             </li>
             <li class="social-media-icon">
@@ -215,8 +215,8 @@ mycode.innerHTML = `
               </a>
             </li>
             <li class="social-media-icon">
-              <a href="https://twitter.com/Kamrankhanahm15" target="_blank" >
-                <img class="social-media-links" src="./Images/twitter.png" alt="Kamran's Twitter">
+              <a href="https://Twitter.com/Kamrankhanahm15" target="_blank" >
+                <img class="social-media-links" src="./Images/Twitter.png" alt="Kamran's Twitter">
               </a>
             </li>
             <li class="social-media-icon">
