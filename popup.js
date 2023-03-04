@@ -33,27 +33,27 @@ mycode.innerHTML = `
         <ul class="social-media-icons">
           <li class="social-media-icon">
             <a href="https://twitter.com/Kamrankhanahm15" target="_blank">
-              <img class="social-media-links" src="images/twitter.png" alt="Kamran's Twitter">
+              <img class="social-media-links" src="./Images/twitter.png" alt="Kamran's Twitter">
             </a>
           </li>
           <li class="social-media-icon">
             <a href="https://www.linkedin.com/in/kamran-ahmad-b9b05910b/" target="_blank">
-              <img class="social-media-links" src="images/Linkedin.png" alt="Kamran's Linkedin">
+              <img class="social-media-links" src="./Images/Linkedin.png" alt="Kamran's Linkedin">
             </a>
           </li>
           <li class="social-media-icon">
             <a href="#social-media-icon" target="_blank">
-              <img class="social-media-links" src="images/Blog.png" alt="Kamran's Blog">
+              <img class="social-media-links" src="./Images/Blog.png" alt="Kamran's Blog">
             </a>
           </li>
           <li class="social-media-icon">
             <a href="https://github.com/Kamran123Ahmad" target="_blank">
-              <img class="social-media-links" src="images/github.png" alt="Kamran's github">
+              <img class="social-media-links" src="./Images/github.png" alt="Kamran's github">
             </a>
           </li>
           <li class="social-media-icon">
             <a href="#social-media-icon" target="_blank">
-              <img class="social-media-links" src="images/angelist.png" alt="Kamran's Angelist">
+              <img class="social-media-links" src="./Images/angelist.png" alt="Kamran's Angelist">
             </a>
           </li>
         </ul>
@@ -63,16 +63,16 @@ mycode.innerHTML = `
       <section id="portfolio" class="work-section">
         <ul class="project_work">
           <li class="project-image-container">
-            <img src="./images/SnapshootPortfolioA.png"  class="mobile-image">
-            <img src="./images/SnapshootDesktopPortfolioA.png" class="desktop-image">
+            <img src="./Images/SnapshootPortfolioA.png"  class="mobile-image">
+            <img src="./Images/SnapshootDesktopPortfolioA.png" class="desktop-image">
           </li>
           <li class="project-body-block">
             <h2 class="project-title">Tonic</h2>
             <div class="project-info">
               <span class="project-info-items canopy">CANOPY</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items dsk-fw">Back End Dev</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items">2015</span>
             </div>
             <p class="project-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
@@ -88,18 +88,18 @@ mycode.innerHTML = `
   
         <ul class="project_work row-reverse-desktop">
           <li class="project-image-container">
-            <img src="./images/SnapshootPortfolioB.png"  class="mobile-image">
-            <img src="./images/SnapshootDesktopPortfolioB.png"  class="desktop-image">
+            <img src="./Images/SnapshootPortfolioB.png"  class="mobile-image">
+            <img src="./Images/SnapshootDesktopPortfolioB.png"  class="desktop-image">
           </li>
           <li class="project-body-block">
             <h2 class="project-title">Multi-Post Stories</h2>
             <div class="project-info">
               <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
               <span class="project-info-items canopy hide-for-mobile">FACEBOOK</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items hide-for-desktop">Back End Dev</span>
               <span class="project-info-items hide-for-mobile dsk-fw">Full Stack Dev</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items">2015</span>
             </div>
             <p class="project-primary-text hide-for-desktop">A daily selection of privately personalized reads; no
@@ -120,8 +120,8 @@ mycode.innerHTML = `
   
         <ul class="project_work">
           <li class="project-image-container">
-            <img src="./images/SnapshootPortfolioC.png"  class="mobile-image">
-            <img src="./images/SnapshootDesktopPortfolioC.png"  class="desktop-image">
+            <img src="./Images/SnapshootPortfolioC.png"  class="mobile-image">
+            <img src="./Images/SnapshootDesktopPortfolioC.png"  class="desktop-image">
           </li>
           <li class="project-body-block">
             <h2 class="project-title hide-for-desktop">Tonic</h2>
@@ -129,10 +129,10 @@ mycode.innerHTML = `
             <div class="project-info">
               <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
               <span class="project-info-items canopy hide-for-mobile">FACEBOOK</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items hide-for-desktop">Back End Dev</span>
               <span class="project-info-items hide-for-mobile dsk-fw">Full Stack Dev</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items">2015</span>
             </div>
             <p class="project-primary-text hide-for-desktop">A daily selection of privately personalized reads; no
@@ -154,8 +154,8 @@ mycode.innerHTML = `
   
         <ul class="project_work row-reverse-desktop">
           <li class="project-image-container">
-            <img src="./images/SnapshootPortfolioD.png"  class="mobile-image">
-            <img src="./images/SnapshootDesktopPortfolioD.png"  class="desktop-image">
+            <img src="./Images/SnapshootPortfolioD.png"  class="mobile-image">
+            <img src="./Images/SnapshootDesktopPortfolioD.png"  class="desktop-image">
           </li>
           <li class="project-body-block">
             <h2 class="project-title hide-for-desktop">Multi-Post Stories</h2>
@@ -163,10 +163,10 @@ mycode.innerHTML = `
             <div class="project-info">
               <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
               <span class="project-info-items canopy hide-for-mobile">Uber</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items hide-for-desktop">Back End Dev</span>
               <span class="project-info-items hide-for-mobile dsk-fw">Lead Developer</span>
-              <img src="./images/Counter.png" >
+              <img src="./Images/Counter.png" >
               <span class="project-info-items hide-for-desktop">2015</span>
               <span class="project-info-items hide-for-mobile dsk-fw">2018</span>
             </div>
@@ -200,28 +200,28 @@ mycode.innerHTML = `
           <ul class="about-myself-sm-icons social-media-icons">
             <li class="social-media-icon">
               <a href="https://github.com/Kamran123Ahmad" target="_blank">
-                <img class="social-media-links" src="images/github.png" alt="Kamran's Github">
+                <img class="social-media-links" src="./Images/github.png" alt="Kamran's Github">
               </a>
             </li>
             <li class="social-media-icon">
               <a href="https://www.linkedin.com/in/kamran-ahmad-b9b05910b/" target="_blank"
                 >
-                <img class="social-media-links" src="images/Linkedin.png" alt="Kamran's Linkedin">
+                <img class="social-media-links" src="./Images/Linkedin.png" alt="Kamran's Linkedin">
               </a>
             </li>
             <li class="social-media-icon">
               <a href="#social-media-icon" target="_blank">
-                <img class="social-media-links" src="images/angelist.png" alt="Kamran's Angelist">
+                <img class="social-media-links" src="./Images/angelist.png" alt="Kamran's Angelist">
               </a>
             </li>
             <li class="social-media-icon">
               <a href="https://twitter.com/Kamrankhanahm15" target="_blank" >
-                <img class="social-media-links" src="images/twitter.png" alt="Kamran's Twitter">
+                <img class="social-media-links" src="./Images/twitter.png" alt="Kamran's Twitter">
               </a>
             </li>
             <li class="social-media-icon">
               <a href="#social-media-icon" target="_blank">
-                <img class="social-media-links" src="images/Blog.png" alt="Kamran's Blog">
+                <img class="social-media-links" src="./Images/Blog.png" alt="Kamran's Blog">
               </a>
             </li>
           </ul>
@@ -231,31 +231,31 @@ mycode.innerHTML = `
           <li class="frames-lang-lists-container">
             <div class="frames-lfs">
               <h2 class="skill-title">Languages</h2>
-              <img src="./images/arrowdown.png">
+              <img src="./Images/arrowdown.png">
             </div>
             <ul class="language-list">
               <li class="language">
-                <img src="./images/JS.png">
+                <img src="./Images/JS.png">
                 <h2 class="lang-name">JavaScript</h2>
               </li>
               <li class="language">
-                <img src="./images/HTML.png">
+                <img src="./Images/HTML.png">
                 <h2 class="lang-name">HTML</h2>
               </li>
               <li class="language">
-                <img src="./images/CSS.png">
+                <img src="./Images/CSS.png">
                 <h2 class="lang-name">CSS</h2>
               </li>
             </ul>
           </li>
           <li class="frames-lfs">
             <h2 class="skill-title">Frameworks</h2>
-            <img src="./images/arrowright.png">
+            <img src="./Images/arrowright.png">
           </li>
           <li class="line"></li>
           <li class="frames-lfs">
             <h2 class="skill-title">Skills</h2>
-            <img src="./images/arrowright.png">
+            <img src="./Images/arrowright.png">
           </li>
           <li class="line"></li>
         </ul>
@@ -302,13 +302,13 @@ open.addEventListener('click', () => {
 <h2 class="project-title-popup">Tonic</h2>
 <div class="project-info-popup">
   <span class="project-info-items-popup canopy-popup">CANOPY</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup1">Back End Dev</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup2">2015</span>
 </div> 
 </div> 
-<img src="./images/SnapshootPortfolioA.png"  class="mobile-image-popup"> 
+<img src="./Images/SnapshootPortfolioA.png"  class="mobile-image-popup"> 
  <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
  <div class="footer-popup">    
   <ul class="tags-popup">
@@ -343,13 +343,13 @@ open2.addEventListener('click', () => {
 <div class="project-info-popup">
 <button class="close2 style" type="button">X</button>
   <span class="project-info-items-popup canopy-popup">Facebook</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup1">Back End Dev</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup2">2015</span>
 </div> 
 </div> 
-<img src="./images/SnapshootDesktopPortfolioD.png"  class="mobile-image-popup"> 
+<img src="./Images/SnapshootDesktopPortfolioD.png"  class="mobile-image-popup"> 
  <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
  <div class="footer-popup">    
   <ul class="tags-popup">
@@ -384,13 +384,13 @@ open3.addEventListener('click', () => {
 <div class="project-info-popup">
 <button class="close3 style" type="button">X</button>
   <span class="project-info-items-popup canopy-popup">Facebook</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup1">Back End Dev</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup2">2015</span>
 </div> 
 </div> 
-<img src="./images/SnapshootPortfolioC.png"  class="mobile-image-popup"> 
+<img src="./Images/SnapshootPortfolioC.png"  class="mobile-image-popup"> 
  <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
  <div class="footer-popup">    
   <ul class="tags-popup">
@@ -425,13 +425,13 @@ open4.addEventListener('click', () => {
 <div class="project-info-popup">
 <button class="close4 style" type="button">X</button>
   <span class="project-info-items-popup canopy-popup">Uber</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup1">Back End Dev</span>
-  <img src="./images/Counter.png" >
+  <img src="./Images/Counter.png" >
   <span class="project-info-items-popup2">2015</span>
 </div>
 </div>
-<img src="./images/SnapshootDesktopPortfolioB.png"  class="mobile-image-popup">
+<img src="./Images/SnapshootDesktopPortfolioB.png"  class="mobile-image-popup">
  <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
  <div class="footer-popup">
   <ul class="tags-popup">
