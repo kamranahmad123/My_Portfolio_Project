@@ -63,20 +63,21 @@ mycode.innerHTML = `
       <section id="portfolio" class="work-section">
         <ul class="project_work">
           <li class="project-image-container">
-            <img src="./Images/SnapshootPortfolioA.png"  class="mobile-image">
-            <img src="./Images/SnapshootDesktopPortfolioA.png" class="desktop-image">
+            <img src="./Images/Booklist.PNG"  class="mobile-image">
+            <img src="./Images/BookList2.PNG" class="desktop-image">
           </li>
           <li class="project-body-block">
-            <h2 class="project-title">Tonic</h2>
+            <h2 class="project-title">BookList Project</h2>
             <div class="project-info">
-              <span class="project-info-items canopy">CANOPY</span>
+              <span class="project-info-items canopy">Microverse</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items dsk-fw">Back End Dev</span>
+              <span class="project-info-items dsk-fw">Front End Dev</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items">2015</span>
+              <span class="project-info-items">2023</span>
             </div>
-            <p class="project-primary-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required.</p>
+            <p class="project-primary-text">Awesome books ES6 is a JavaScript ES6 best practice-compliant SPA (single page application).
+            A user can add and remove books from the website's book collection and use the navigation buttons to access different pages.
+            .</p>
             <ul class="tags">
               <li class="tag">html</li>
               <li class="tag">css</li>
@@ -88,29 +89,30 @@ mycode.innerHTML = `
   
         <ul class="project_work row-reverse-desktop">
           <li class="project-image-container">
-            <img src="./Images/SnapshootPortfolioB.png"  class="mobile-image">
-            <img src="./Images/SnapshootDesktopPortfolioB.png"  class="desktop-image">
+            <img src="./Images/todo-list.PNG"  class="mobile-image">
+            <img src="./Images/todo-list-2.png"  class="desktop-image">
           </li>
           <li class="project-body-block">
-            <h2 class="project-title">Multi-Post Stories</h2>
+            <h2 class="project-title">to do List Project</h2>
             <div class="project-info">
-              <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
-              <span class="project-info-items canopy hide-for-mobile">FACEBOOK</span>
+              <span class="project-info-items canopy hide-for-desktop">Microverse</span>
+              <span class="project-info-items canopy hide-for-mobile">Microverse</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items hide-for-desktop">Back End Dev</span>
-              <span class="project-info-items hide-for-mobile dsk-fw">Full Stack Dev</span>
+              <span class="project-info-items hide-for-desktop">Front End Dev</span>
+              <span class="project-info-items hide-for-mobile dsk-fw">Front End Dev</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items">2015</span>
+              <span class="project-info-items">2023</span>
             </div>
-            <p class="project-primary-text hide-for-desktop">A daily selection of privately personalized reads; no
-              accounts or sign-ups
-              required.</p>
-            <p class="project-primary-text hide-for-mobile">Experimental content creation feature that allows users to add
-              to an existing story over the course of a day without
-              spamming their friends.</p>
+            <p class="project-primary-text hide-for-desktop">In this project, users can add, remove, and update their to-do lists on a web application. 
+            Moreover, users have the option of marking completed activities as finished and removing them from their task collection. 
+            Built with WebPack, JavaScript (ES6), HTML, and CSS.
+            </p>
+            <p class="project-primary-text hide-for-mobile">In this project, users can add, remove, and update their to-do lists on a web application. 
+            Moreover, users have the option of marking completed activities as finished and removing them from their task collection. 
+            Built with WebPack, JavaScript (ES6), HTML, and CSS.
+            </p>
             <ul class="tags">
               <li class="tag">html</li>
-              <li class="tag hide-for-mobile">Ruby on rails</li>
               <li class="tag">css</li>
               <li class="tag">javaScript</li>
             </ul>
@@ -120,31 +122,30 @@ mycode.innerHTML = `
   
         <ul class="project_work">
           <li class="project-image-container">
-            <img src="./Images/SnapshootPortfolioC.png"  class="mobile-image">
-            <img src="./Images/SnapshootDesktopPortfolioC.png"  class="desktop-image">
+            <img src="./Images/sportsGala.PNG"  class="mobile-image">
+            <img src="./Images/sportsGala2.PNG"  class="desktop-image">
           </li>
           <li class="project-body-block">
-            <h2 class="project-title hide-for-desktop">Tonic</h2>
-            <h2 class="project-title hide-for-mobile">Facebook 360</h2>
+            <h2 class="project-title hide-for-desktop">sports Gala</h2>
+            <h2 class="project-title hide-for-mobile">sports Gala</h2>
             <div class="project-info">
-              <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
-              <span class="project-info-items canopy hide-for-mobile">FACEBOOK</span>
+              <span class="project-info-items canopy hide-for-desktop">Microverse</span>
+              <span class="project-info-items canopy hide-for-mobile">Microverse</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items hide-for-desktop">Back End Dev</span>
-              <span class="project-info-items hide-for-mobile dsk-fw">Full Stack Dev</span>
+              <span class="project-info-items hide-for-desktop">Front end Dev</span>
+              <span class="project-info-items hide-for-mobile dsk-fw">Front end Dev</span>
               <img src="./Images/Counter.png" >
-              <span class="project-info-items">2015</span>
+              <span class="project-info-items">2023</span>
             </div>
-            <p class="project-primary-text hide-for-desktop">A daily selection of privately personalized reads; no
-              accounts or sign-ups
-              required.</p>
+            <p class="project-primary-text hide-for-desktop">This project is a straightforward sport Gala website that lets users see the major sport events in 
+            Afghanistan, the time and location of the sports Gala, and details on previous summits. Built with JavaScript, HTML, and CSS (bootstrap).
+            </p>
   
-            <p class="project-primary-text hide-for-mobile">Exploring the future of media in Facebook's first Virtual
-              Reality app; a place to discover and enjoy 360 photos and
-              videos on Gear VR.</p>
+            <p class="project-primary-text hide-for-mobile">This project is a straightforward sport Gala website that lets users see the major sport events in 
+            Afghanistan, the time and location of the sports Gala, and details on previous summits. Built with JavaScript, HTML, and CSS (bootstrap).
+            </p>
             <ul class="tags">
               <li class="tag">html</li>
-              <li class="tag hide-for-mobile">Ruby on rails</li>
               <li class="tag">css</li>
               <li class="tag">javaScript</li>
             </ul> 
@@ -161,7 +162,7 @@ mycode.innerHTML = `
             <h2 class="project-title hide-for-desktop">Multi-Post Stories</h2>
             <h2 class="project-title hide-for-mobile">Uber Navigation</h2>
             <div class="project-info">
-              <span class="project-info-items canopy hide-for-desktop">CANOPY</span>
+              <span class="project-info-items canopy hide-for-desktop>Microverse</span>
               <span class="project-info-items canopy hide-for-mobile">Uber</span>
               <img src="./Images/Counter.png" >
               <span class="project-info-items hide-for-desktop">Back End Dev</span>
@@ -170,9 +171,10 @@ mycode.innerHTML = `
               <span class="project-info-items hide-for-desktop">2015</span>
               <span class="project-info-items hide-for-mobile dsk-fw">2018</span>
             </div>
-            <p class="project-primary-text hide-for-desktop">A daily selection of privately personalized reads; no
-              accounts or sign-ups
-              required.</p>
+            <p class="project-primary-text hide-for-desktop">In this project, users can add, remove, and update their to-do lists on a web application. 
+            Moreover, users have the option of marking completed activities as finished and removing them from their task collection. 
+            Built with WebPack, JavaScript (ES6), HTML, and CSS.
+            </p>
   
             <p class="project-primary-text hide-for-mobile">
               A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
@@ -299,26 +301,27 @@ open.addEventListener('click', () => {
   pop1.innerHTML = `
 <div class="top-popup">
 <button class="close1 style" type="button">X</button>
-<h2 class="project-title-popup">Tonic</h2>
+<h2 class="project-title-popup">Book List Project</h2>
 <div class="project-info-popup">
-  <span class="project-info-items-popup canopy-popup">CANOPY</span>
+  <span class="project-info-items-popup canopy-popup">Microverse</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup1">Back End Dev</span>
+  <span class="project-info-items-popup1">Front End Dev</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup2">2015</span>
+  <span class="project-info-items-popup2">2023</span>
 </div> 
 </div> 
-<img src="./Images/SnapshootPortfolioA.png"  class="mobile-image-popup"> 
- <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
+<img src="./Images/Booklist.PNG"  class="mobile-image-popup"> 
+ <p class="project-primary-text-popup">Awesome books ES6 is a JavaScript ES6 best practice-compliant SPA (single page application).
+ A user can add and remove books from the website's book collection and use the navigation buttons to access different pages.
+ </p>
  <div class="footer-popup">    
   <ul class="tags-popup">
     <li class="tag-popup">html</li>
-    <li class="tag-popup hide-for-mobile">Ruby on rails</li>
     <li class="tag-popup">CSS</li>
     <li class="tag-popup">javaScript</li>
   </ul>
-  <button class="button project-popup" type="button">See live</button>
-  <button class="button project-popup" type="button">See source</button>
+  <a href='https://kamranahmad123.github.io/ES6-booksList/?'><button class="button project-popup" type="button">See live</button> </a>
+  <a href='https://github.com/kamranahmad123/ES6-booksList'><button class="button project-popup" type="button">See source</button></a>
  </ul>
 </div>
 `;
@@ -339,27 +342,29 @@ open2.addEventListener('click', () => {
   main.className = 'main';
   pop1.innerHTML = `
 <div class="top-popup">
-<h2 class="project-title-popup">Facebook</h2>
+<h2 class="project-title-popup">to do List Project</h2>
 <div class="project-info-popup">
 <button class="close2 style" type="button">X</button>
-  <span class="project-info-items-popup canopy-popup">Facebook</span>
+  <span class="project-info-items-popup canopy-popup">Microverse</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup1">Back End Dev</span>
+  <span class="project-info-items-popup1">Front End Dev</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup2">2015</span>
+  <span class="project-info-items-popup2">2023</span>
 </div> 
 </div> 
-<img src="./Images/SnapshootDesktopPortfolioD.png"  class="mobile-image-popup"> 
- <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
+<img src="./Images/todo-list.PNG"  class="mobile-image-popup"> 
+ <p class="project-primary-text-popup">In this project, users can add, remove, and update their to-do lists on a web application. 
+ Moreover, users have the option of marking completed activities as finished and removing them from their task collection. 
+ Built with WebPack, JavaScript (ES6), HTML, and CSS.
+ </p>
  <div class="footer-popup">    
   <ul class="tags-popup">
     <li class="tag-popup">html</li>
-    <li class="tag-popup hide-for-mobile">Ruby on rails</li>
     <li class="tag-popup">CSS</li>
     <li class="tag-popup">javaScript</li>
     </ul>
-    <button class="button project-popup" type="button">See live</button>
-    <button class="button project-popup" type="button">See source</button>
+    <a href='https://kamranahmad123.github.io/To-Do-Structure/dist/'><button class="button project-popup" type="button">See live</button></a>
+    <a href='https://github.com/kamranahmad123/To-Do-Structure'><button class="button project-popup" type="button">See source</button>
    </ul>
 </div>
 `;
@@ -380,27 +385,29 @@ open3.addEventListener('click', () => {
   main.className = 'main';
   pop1.innerHTML = `
 <div class="top-popup">
-<h2 class="project-title-popup">Facebook 360</h2>
+<h2 class="project-title-popup">Sports Gala</h2>
 <div class="project-info-popup">
 <button class="close3 style" type="button">X</button>
-  <span class="project-info-items-popup canopy-popup">Facebook</span>
+  <span class="project-info-items-popup canopy-popup">Microverse</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup1">Back End Dev</span>
+  <span class="project-info-items-popup1">FrontEnd Dev</span>
   <img src="./Images/Counter.png" >
-  <span class="project-info-items-popup2">2015</span>
+  <span class="project-info-items-popup2">2023</span>
 </div> 
 </div> 
-<img src="./Images/SnapshootPortfolioC.png"  class="mobile-image-popup"> 
- <p class="project-primary-text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.</p>
+<img src="./Images/sportsGala.PNG"  class="mobile-image-popup"> 
+ <p class="project-primary-text-popup">This project is a straightforward sport Gala website that lets users see the major sport events in 
+ Afghanistan, the time and location of the sports Gala, and details on previous summits. Built with JavaScript, HTML, and CSS (bootstrap).
+ </p>
  <div class="footer-popup">    
   <ul class="tags-popup">
     <li class="tag-popup">html</li>
-    <li class="tag-popup hide-for-mobile">Ruby on rails</li>
     <li class="tag-popup">CSS</li>
     <li class="tag-popup">javaScript</li>
     </ul>
-    <button class="button project-popup" type="button">See live</button>
-    <button class="button project-popup" type="button">See source</button>
+    <a href='https://kamranahmad123.github.io/capstone/
+    '><button class="button project-popup" type="button">See live</button> </a>
+    <a href='https://github.com/kamranahmad123/capstone'><button class="button project-popup" type="button">See source</button></a>
    </ul>
 </div>
 `;
